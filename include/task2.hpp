@@ -6,7 +6,6 @@
 template <typename T>
 class S_Stack : public Stack<T>
 {
-
 public:
     template <typename ... Args>
     void push_emplace(Args&& ... value) {

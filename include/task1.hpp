@@ -8,12 +8,12 @@ class F_Stack : public Stack<T> {
 
 public:
     void push(const T& value) {
-        auto node = new typename Stack<T>::Node{value,Stack<T>::head};
+        auto node = new typename Stack<T>::Node{value, Stack<T>::head};
         Stack<T>::head = node;
     }
 
     void pop() {
-        if(Stack<T>::head)
+        if (Stack<T>::head)
             Stack<T>::head = Stack<T>::head->next;
         else
             throw std::exception();

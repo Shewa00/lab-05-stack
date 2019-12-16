@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/ARAOvsepyan/lab-05-stack.svg?branch=master)](https://travis-ci.com/ARAOvsepyan/lab-05-stack)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 
 # Лабораторная работа №5
 

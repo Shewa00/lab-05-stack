@@ -19,8 +19,8 @@ public:
     Stack() = default;
 
     ~Stack() {
-        while(head) {
-            auto *act=head;
+        while (head) {
+            auto *act = head;
             head = act->next;
             delete act;
         }
@@ -37,9 +37,8 @@ public:
     }
 
     const T& Head() {
-        if(!head)
+        if (!head)
             throw std::exception();
         return head->data;
     }
-
 };

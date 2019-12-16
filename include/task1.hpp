@@ -4,7 +4,8 @@
 #include "Stack.hpp"
 
 template <class T>
-class F_Stack : public Stack<T> {
+class F_Stack : public Stack<T>
+{
 public:
     void push(const T& value) {
         auto node = new typename Stack<T>::Node{value, Stack<T>::head};
